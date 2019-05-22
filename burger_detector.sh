@@ -82,7 +82,7 @@ if [ $# -ne 0 ]; then COUNT_BURGERS=1; COUNT_FISK=1 ; fi
 #---------------------------------------
 # TEST FOR BURGERS
 #---------------------------------------
-if [ ${COUNT_BURGERS:-1} -ne 0 ]; then 
+if [ ${COUNT_BURGERS:-0} -ne 0 ]; then 
  cat << "EOF"
       __________
      /          \
@@ -129,7 +129,7 @@ fi
 #---------------------------------------
 # SEND AN EXTRA ALERT IF THEY SERV FISH
 #---------------------------------------
-if [ ${COUNT_FISK:-1} -ne 0 ]; then 
+if [ ${COUNT_FISK:-0} -ne 0 ]; then 
  ${PROWL_LINE} -F event="Advarsel vedrørende frokost" -F description="DET ER FISKE DAG!!!
  ${ISS_URL}"      > /dev/null 2>&1 
 fi
