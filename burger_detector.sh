@@ -64,7 +64,7 @@ case ${DAG_I_TAL} in
  3) DAG="Onsdag"  ; DAGENS_MENU="${ONS}" ;;
  4) DAG="Torsdag" ; DAGENS_MENU="${TOR}" ;;
  5) DAG="Fredag"  ; DAGENS_MENU="${FRE}" ;;
- *) DAG="Fridag"  ; DAGENS_MENU=""       ;;
+ *) DAG="Fridag"  ; printf " I dag er det ${DAG}\n\n" ; exit ;;
 esac
 if [ ${DEBUG:-0} -eq 1 ]; then 
  printf " I dag er det ${DAG}\n\n"
