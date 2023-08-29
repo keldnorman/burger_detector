@@ -36,8 +36,9 @@ POC:
 ------------------------------------
 norman@stepstone:~/bin$ ./burger-detector  
 
- Dette er Burger detektoren for ISS kantinen i Søborg
-     (C)opyright Keld Norman, Dubex A/S May 2019
+  Dette er Burger detektoren for ISS kantinen i Søborg
+     (C)opyleft Keld Norman, Dubex A/S May 2019
+
        __
       /
    .-/-.
@@ -49,24 +50,53 @@ norman@stepstone:~/bin$ ./burger-detector
           ;-......-;   |    |
            '------'    \____/
 
- Vent velingst mens jeg checker om der er burgere på menuen..
+Vent velingst mens jeg checker om der er burgere på menuen om Tirsdagen..
 
- Wed 22 May 2019 07:09:22 PM CEST
-    ______________
-   /              \
-   ! .  ..___   . !
-   ! |\ |[__    | !
-   ! | \|[___\__| !
-   !              !
-   \______________/
-         L_ !  ... Der serveres desværre
-        / _)!          ikke BURGERE
-       / /__L           i kantinen 
- _____/ (____)           i dag !
-        (____)
- _____  (____)
-      \_(____)
-         \__/   
+   ______________
+  /              \
+  ! .  ..___   . !
+  ! |\ |[__    | !
+  ! | \|[___\__| !
+  !              !
+  \______________/
+        L_ !  ... Der serveres desværre
+       / _)!          ikke BURGERE
+      / /__L           i kantinen 
+_____/ (____)           i dag !
+       (____)
+_____  (____)
+     \_(____)
+        \__/   
+
+
+Dagens menu:
+
+--------------------
+Go Green:
+--------------------
+Stegt ½ Majs
+Majs/gulerods pure
+Tærte på nye løg
+Salater
+Hytteost majsbrød on the side 
+--------------------
+Comfort Food
+--------------------
+Stegt flæsk af glad gris
+Persillesauce
+Kartofler
+Syltet asier/porre top  
+--------------------
+Deli:
+--------------------
+Rugbrød
+Tomat x 2
+Friskost
+Purløg - Foccacia
+Lufttørret skinke
+Urte mayo
+Gastro ost 
+--------------------
 
 POC WHERE THEY SERV BURGERS:
 ------------------------------------
